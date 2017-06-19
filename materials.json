@@ -1,0 +1,43 @@
+[
+  {
+    "type": "material",
+    "ident": "essencemat",
+    "override": true,
+    "name": "Magical Essence",
+    "density": 1,
+    "bash_resist": 20,
+    "cut_resist": 20,
+    "acid_resist": 99,
+    "fire_resist": 99,
+    "elec_resist": 99,
+    "chip_resist": 99,
+    "repaired_with": "essence",
+    "dmg_adj": [ "lightly damaged", "damaged", "very damaged", "thoroughly damaged" ],
+    "bash_dmg_verb": "damaged",
+    "cut_dmg_verb": "damaged"
+  },
+  {
+    "type": "material",
+    "ident": "flesh",
+    "override": true,
+    "name": "Flesh",
+    "density": 5,
+    "edible": true,
+    "bash_resist": 1,
+    "cut_resist": 1,
+    "acid_resist": 1,
+    "fire_resist": 1,
+    "elec_resist": 1,
+    "chip_resist": 2,
+    "repaired_with": "essence_fiber",
+    "dmg_adj": [ "bruised", "mutilated", "badly mutilated", "thoroughly mutilated" ],
+    "bash_dmg_verb": "bruised",
+    "cut_dmg_verb": "sliced",
+    "vitamins": [ [ "calcium", 0.1 ], [ "vitB", 1 ], [ "iron", 2 ] ],
+    "burn_data": [
+      { "fuel": 1, "smoke": 1, "burn": 1, "chance": 10 },
+      { "fuel": 2, "smoke": 3, "burn": 2, "chance": 40 },
+      { "fuel": 3, "smoke": 10, "burn": 3 }
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "type": "recipe",
+    "result": "essence",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+	"id_suffix": "AXBM",
+    "skill_used": "essence_shaping",
+    "difficulty": 1,
+	"book_learn": [ [ "recipe_lab_enchantment", 0 ] ],
+    "time": 50,
+	"reversible": false,
+    "autolearn": false,
+    "result_mult": 10,
+    "tools": [
+	  [
+		[ "AXBM_reactor", 10 ],
+		[ "AXBM_reactor_on", 10 ]
+	  ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "AXBM_reactor",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "essence_shaping",
+    "difficulty": 7,
+    "skills_required": [ "firstaid", 6 ],
+	"book_learn": [ [ "recipe_lab_enchantment", 6 ] ],
+    "time": 240000,
+	"reversible": true,
+    "autolearn": false,
+    "tools": [ [ [ "nerve_spike", 100 ] ] ],
+    "components": [ [ [ "slime_scrap", 100 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "AXBM_reactor",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "essence_shaping",
+    "difficulty": 7,
+    "skills_required": [ "firstaid", 6 ],
+	"book_learn": [ [ "recipe_lab_enchantment", 6 ] ],
+    "time": 240000,
+	"reversible": true,
+    "autolearn": false,
+    "tools": [ [ [ "nerve_spike", 100 ] ] ],
+    "components": [ [ [ "slime_scrap", 100 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "essence_fiber",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "essence_shaping",
+    "difficulty": 4,
+    "skills_required": [ "firstaid", 3 ],
+	"book_learn": [ [ "recipe_lab_enchantment", 3 ] ],
+    "time": 5000,
+	"reversible": true,
+    "autolearn": false,
+    "using": [ [ "filament", 10, false ] ],
+    "components": [ [ [ "essence", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "needle_worm",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "essence_shaping",
+    "difficulty": 5,
+    "skills_required": [ "mechanics", 4 ],
+	"book_learn": [ [ "recipe_lab_enchantment", 4 ] ],
+    "time": 60000,
+	"reversible": true,
+    "autolearn": false,
+    "components": [ [ [ "essence_fiber", 200 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "nerve_spike",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "essence_shaping",
+    "difficulty": 6,
+    "skills_required": [ "mechanics", 5 ],
+	"book_learn": [ [ "recipe_lab_enchantment", 5 ] ],
+    "time": 10000,
+	"reversible": true,
+    "autolearn": false,
+    "components": [ [ [ "essence_fiber", 200 ] ] ]
+  },
+  {
+	"type": "recipe",
+	"result": "e_fiber_whip",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_RANGED",
+	"skill_used": "fabrication",
+	"difficulty": 6,
+    "skills_required": [ "essence_shaping", 5 ],
+	"book_learn": [ [ "recipe_lab_enchantment", 5 ] ],
+	"time": 180000,
+	"reversible": true,
+	"autolearn": false,
+	"components": [ [ [ "essence_fiber", 2000 ] ] ]
+  },
+  {
+	"type": "recipe",
+	"result": "e_fiber_suit",
+	"category": "CC_ARMOR",
+	"subcategory": "CSC_ARMOR_SUIT",
+	"skill_used": "tailor",
+	"difficulty": 7,
+    "skills_required": [ "essence_shaping", 7 ],
+	"book_learn": [ [ "recipe_lab_enchantment", 6 ] ],
+	"time": 360000,
+	"reversible": true,
+	"autolearn": false,
+    "using": [ [ "filament", 200 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "SEW", "level": 1 }
+    ],
+	"components": [
+      [ [ "rag", 30 ] ],
+	  [ [ "essence_fiber", 3000 ] ]
+	]
+  }
+]

@@ -1,0 +1,406 @@
+[
+  {
+	"type": "recipe",
+	"result": "charm_strength_1",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 4,
+	"book_learn": [ [ "recipe_lab_charms", 3 ] ],
+	"time": 60000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 25 ] ],
+	  [ [ "meat", 10 ], [ "meat_tainted", 10 ], [ "human_flesh", 10 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_strength_2",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 7,
+	"book_learn": [ [ "recipe_lab_charms", 6 ] ],
+	"time": 90000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 50 ] ],
+	  [ [ "meat", 20 ], [ "meat_tainted", 20 ], [ "human_flesh", 20 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_strength_3",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 10,
+	"book_learn": [ [ "recipe_lab_charms", 9 ] ],
+	"time": 135000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 100 ] ],
+	  [ [ "meat", 40 ], [ "meat_tainted", 40 ], [ "human_flesh", 40 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_dexterity_1",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 4,
+	"book_learn": [ [ "recipe_lab_charms", 3 ] ],
+	"time": 60000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 25 ] ],
+	  [ [ "meat", 10 ], [ "meat_tainted", 10 ], [ "human_flesh", 10 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_dexterity_2",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 7,
+	"book_learn": [ [ "recipe_lab_charms", 6 ] ],
+	"time": 90000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 50 ] ],
+	  [ [ "meat", 20 ], [ "meat_tainted", 20 ], [ "human_flesh", 20 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_dexterity_3",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 10,
+	"book_learn": [ [ "recipe_lab_charms", 9 ] ],
+	"time": 135000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 100 ] ],
+	  [ [ "meat", 40 ], [ "meat_tainted", 40 ], [ "human_flesh", 40 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_intelligence_1",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 4,
+	"book_learn": [ [ "recipe_lab_charms", 3 ] ],
+	"time": 60000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 25 ] ],
+	  [ [ "meat", 10 ], [ "meat_tainted", 10 ], [ "human_flesh", 10 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_intelligence_2",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 7,
+	"book_learn": [ [ "recipe_lab_charms", 6 ] ],
+	"time": 90000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 50 ] ],
+	  [ [ "meat", 20 ], [ "meat_tainted", 20 ], [ "human_flesh", 20 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_intelligence_3",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 10,
+	"book_learn": [ [ "recipe_lab_charms", 9 ] ],
+	"time": 135000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 100 ] ],
+	  [ [ "meat", 40 ], [ "meat_tainted", 40 ], [ "human_flesh", 40 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_perception_1",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 4,
+	"book_learn": [ [ "recipe_lab_charms", 3 ] ],
+	"time": 60000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 25 ] ],
+	  [ [ "meat", 10 ], [ "meat_tainted", 10 ], [ "human_flesh", 10 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_perception_2",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 7,
+	"book_learn": [ [ "recipe_lab_charms", 6 ] ],
+	"time": 90000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 50 ] ],
+	  [ [ "meat", 20 ], [ "meat_tainted", 20 ], [ "human_flesh", 20 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_perception_3",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 10,
+	"book_learn": [ [ "recipe_lab_charms", 9 ] ],
+	"time": 135000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 100 ] ],
+	  [ [ "meat", 40 ], [ "meat_tainted", 40 ], [ "human_flesh", 40 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_light",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 2,
+	"book_learn": [ [ "recipe_lab_charms", 1 ] ],
+	"time": 60000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 25 ] ],
+	  [ [ "glass_shard", 10 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_stealth",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 5,
+	"book_learn": [ [ "recipe_lab_charms", 4 ] ],
+	"time": 80000,
+	"reversible": false,
+	"autolearn": false,
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 25 ] ],
+	  [ [ "raw_leather", 10 ], [ "raw_tainted_leather", 10 ], [ "raw_hleather", 10 ] ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "charm_tillinghast",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 6,
+	"book_learn": [ [ "recipe_lab_charms", 5 ] ],
+	"time": 75000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 5, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 60 ] ],
+	  [ [ "ceramic_shard", 10 ] ]
+	]
+  },
+  {
+	"type" : "recipe",
+	"result": "lantern_tillinghast",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 7,
+	"book_learn": [ [ "recipe_lab_charms", 6 ] ],
+	"time": 60000,
+	"autolearn": true,
+	"qualities":[
+	  {"id":"HAMMER","level":1}
+	],
+	"components": [
+	  [
+		[ "scrap", 1 ]
+	  ],
+	  [
+		[ "charm_tillinghast", 1 ]
+	  ],
+	  [
+		[ "essence_fiber", 100 ]
+	  ],
+	  [
+		[ "bottle_glass", 1 ],
+		[ "flask_glass", 1],
+		[ "jar_glass", 1 ]
+	  ],
+	  [
+		[ "clay_teapot", 1 ],
+		[ "jug_clay", 1 ],
+		[ "can_food_unsealed", 1 ],
+		[ "can_drink_unsealed", 1 ],
+		[ "canister_empty", 1 ]
+	  ]
+	]
+  },
+  {
+	"type": "recipe",
+	"result": "timesplitterx3",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "magic",
+	"difficulty": 10,
+	"book_learn": [ [ "recipe_lab_charms", 9 ] ],
+	"time": 90000,
+	"reversible": false,
+	"autolearn": false,
+	"using": [ [ "steel_standard", 10, false ] ],
+	"tools": [
+	  [
+		[ "permanent_marker", 10 ],
+		[ "survival_marker", 10 ]
+	  ]
+	],
+	"components": [
+	  [ [ "essence", 100 ] ],
+	  [ [ "clockworks", 100 ] ]
+	]
+  }
+]

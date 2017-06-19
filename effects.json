@@ -1,0 +1,111 @@
+[
+    {
+        "type": "effect_type",
+        "id": "pkill_arcane",
+        "name": ["Resist Pain"],
+        "desc": ["You wilfully numb your body against pain."],
+        "remove_message": "The pain returns.",
+        "max_duration": 150,
+        "base_mods": {
+            "pkill_tick": [1],
+            "pkill_min": [25],
+            "pkill_max_val": [50]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "accelerate_arcane1",
+        "name": ["Acceleration x3"],
+        "desc": ["You overclock your mental and physical speed."],
+        "remove_message": "You slow down.",
+        "int_add_val": 1,
+        "max_intensity": 3,
+        "int_decay_tick": 10,
+        "base_mods": {
+            "speed_mod": [200],
+            "pain_min": [1],
+            "pain_chance": [30],
+            "fatigue_min": [1],
+            "fatigue_chance": [40],
+            "hunger_min": [1],
+            "hunger_chance": [60],
+            "thirst_min": [1],
+            "thirst_chance": [40]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "accelerate_arcane2",
+        "name": ["Acceleration x10"],
+        "desc": ["You overclock your mental and physical speed."],
+        "remove_message": "You slow down.",
+        "int_add_val": 1,
+        "max_intensity": 3,
+        "int_decay_tick": 3,
+        "base_mods": {
+            "speed_mod": [900],
+            "pain_min": [1],
+            "pain_chance": [9],
+            "fatigue_min": [1],
+            "fatigue_chance": [12],
+            "hunger_min": [1],
+            "hunger_chance": [18],
+            "thirst_min": [1],
+            "thirst_chance": [12]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "accelerate_arcane3",
+        "name": ["Acceleration x100"],
+        "desc": ["You overclock your mental and physical speed."],
+        "remove_message": "You slow down.",
+        "int_add_val": 1,
+        "max_intensity": 1,
+        "int_decay_tick": 1,
+        "base_mods": {
+            "speed_mod": [9900],
+            "pain_min": [1],
+            "pain_chance": [1],
+            "fatigue_min": [1],
+            "fatigue_chance": [1.2],
+            "hunger_min": [1],
+            "hunger_chance": [1.8],
+            "thirst_min": [1],
+            "thirst_chance": [1.2]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "accelerate_arcane4",
+        "name": ["Acceleration x1000"],
+        "desc": ["You overclock your mental and physical speed."],
+        "remove_message": "You slow down.",
+        "int_add_val": 1,
+        "max_intensity": 1,
+        "int_decay_tick": 1,
+        "base_mods": {
+            "speed_mod": [99900],
+            "pain_min": [11],
+            "pain_chance": [1],
+            "fatigue_min": [8],
+            "fatigue_chance": [1],
+            "hunger_min": [6],
+            "hunger_chance": [1],
+            "thirst_min": [8],
+            "thirst_chance": [1]
+        }
+    },
+	{
+        "type": "effect_type",
+        "id": "ego_warding",
+        "name": ["Repairing noetic field"],
+        "desc": ["You expunge all foreign influences from within your ego boundary and reasserts the true form of your 「SELF」."],
+        "removes_effects": ["darkness", "rat", "evil", "attention", "teleglow", "amigara"],
+        "blocks_effects": ["darkness", "rat", "evil", "attention", "teleglow", "amigara"],
+        "remove_message": "Noetic field repair completed.",
+        "int_add_val": 1,
+        "max_intensity": 1,
+        "int_decay_tick": 5
+    }
+]

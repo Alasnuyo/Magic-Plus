@@ -1,0 +1,9 @@
+[
+    {
+        "type" : "skill",
+        "ident" : "essence_shaping",
+        "name" : "essence shaping",
+        "description" : "Your skill in interacting with and shaping non-standard materials and less studied part of your metaphysiology, in emulation of certain extra-dimensional entities.",
+        "tags" : ["combat_skill"]
+    }
+]

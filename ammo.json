@@ -1,0 +1,352 @@
+[
+  {
+    "id": "essence_bullet",
+    "type": "TOOL",
+    "category": "weapons",
+    "name" : "star shot",
+    "description": "A grain of hyper-compressed essence structure. A bullet of arcane matter that needs no gun to fire.",
+    "weight": 0,
+    "volume": 0,
+    "price": 5000,
+    "material" : "essencemat",
+    "symbol": "=",
+    "color": "light_blue",
+	"thrown_damage" : [
+		{ "damage_type": "bash", "amount": 9 },
+		{ "damage_type": "stab", "amount": 9 }
+	],
+    "use_action": { "type": "countdown" },
+	"countdown_interval": 0,
+	"countdown_destroy": true,
+	"countdown_action": {
+      "type": "explosion",
+      "explosion": {
+        "power" : 2,
+        "distance_factor" : 0.1,
+        "fire" : false,
+        "shrapnel" : {
+          "count" : 1,
+          "mass" : 1,
+          "recovery" : 70,
+          "drop" : "essence"
+        }
+	  },
+	  "draw_explosion_radius" : 1,
+	  "draw_explosion_color" : "ltblue",
+      "fields_type": "fd_plasma",
+      "fields_radius": 1,
+      "fields_min_density": 0,
+      "fields_max_density": 2
+	},
+	"flags": [ "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "id": "essence_bullet_en",
+    "type": "TOOL",
+    "category": "weapons",
+    "name" : "star shot EN",
+    "description": "A grain of hyper-compressed essence structure. A bullet of arcane matter that needs no gun to fire. This variant is enhanced for inflicting greater damage.",
+    "weight": 0,
+    "volume": 0,
+    "price": 5000,
+    "material" : "essencemat",
+    "symbol": "=",
+    "color": "light_blue",
+	"thrown_damage" : [
+		{ "damage_type": "bash", "amount": 14 },
+		{ "damage_type": "stab", "amount": 14 }
+	],
+    "use_action": { "type": "countdown" },
+	"countdown_interval": 0,
+	"countdown_destroy": true,
+	"countdown_action": {
+      "type": "explosion",
+      "explosion": {
+        "power" : 3,
+        "distance_factor" : 0.1,
+        "fire" : false,
+        "shrapnel" : {
+          "count" : 1,
+          "mass" : 1,
+          "recovery" : 70,
+          "drop" : "essence"
+        }
+	  },
+	  "draw_explosion_radius" : 1,
+	  "draw_explosion_color" : "ltblue",
+      "fields_type": "fd_plasma",
+      "fields_radius": 1,
+      "fields_min_density": 0,
+      "fields_max_density": 2
+	},
+	"flags": [ "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "id": "essence_bullet_ap",
+    "type": "TOOL",
+    "category": "weapons",
+    "name" : "star shot AP",
+    "description": "A grain of hyper-compressed essence structure. A bullet of arcane matter that needs no gun to fire. This variant is specialised of anti-armour works.",
+    "weight": 0,
+    "volume": 0,
+    "price": 5000,
+    "material" : "essencemat",
+    "symbol": "=",
+    "color": "light_blue",
+	"thrown_damage" : [
+		{ "damage_type": "bash", "amount": 3 },
+		{ "damage_type": "stab", "amount": 28 }
+	],
+    "use_action": { "type": "countdown" },
+	"countdown_interval": 0,
+	"countdown_destroy": true,
+	"countdown_action": {
+      "type": "explosion",
+      "explosion": {
+        "power" : 1,
+        "distance_factor" : 0.1,
+        "fire" : false,
+        "shrapnel" : {
+          "count" : 1,
+          "mass" : 1,
+          "recovery" : 70,
+          "drop" : "essence"
+        }
+	  },
+	  "draw_explosion_radius" : 1,
+	  "draw_explosion_color" : "ltblue",
+      "fields_type": "fd_plasma",
+      "fields_radius": 1,
+      "fields_min_density": 0,
+      "fields_max_density": 2
+	},
+	"flags": [ "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "id": "essence_bullet_ex",
+    "type": "TOOL",
+    "category": "weapons",
+    "name" : "star shot EX",
+    "description": "A grain of hyper-compressed essence structure. A bullet of arcane matter that needs no gun to fire. This variant is suited for taking out clustered enemies.",
+    "weight": 0,
+    "volume": 0,
+    "price": 5000,
+    "material" : "essencemat",
+    "symbol": "=",
+    "color": "light_blue",
+	"thrown_damage" : [
+		{ "damage_type": "bash", "amount": 3 },
+		{ "damage_type": "stab", "amount": 3 }
+	],
+    "use_action": { "type": "countdown" },
+	"countdown_interval": 0,
+	"countdown_destroy": true,
+	"countdown_action": {
+      "type": "explosion",
+      "explosion": {
+        "power" : 11,
+        "distance_factor" : 0.5,
+        "fire" : false,
+        "shrapnel" : {
+          "count" : 1,
+          "mass" : 1,
+          "recovery" : 70,
+          "drop" : "essence"
+        }
+	  },
+	  "draw_explosion_radius" : 5,
+	  "draw_explosion_color" : "ltblue",
+      "fields_type": "fd_plasma",
+      "fields_radius": 5,
+      "fields_min_density": 0,
+      "fields_max_density": 2
+	},
+	"flags": [ "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "id": "essence_shell",
+    "type": "TOOL",
+    "category": "weapons",
+    "name" : "star shell",
+    "description": "A grain of hyper-compressed essence structure. A self propelling magical artillery shell.",
+    "weight": 0,
+    "volume": 0,
+    "price": 5000,
+    "material" : "essencemat",
+    "symbol": "=",
+    "color": "light_blue",
+	"thrown_damage" : [
+		{ "damage_type": "bash", "amount": 46 },
+		{ "damage_type": "stab", "amount": 46 }
+	],
+    "use_action": { "type": "countdown" },
+	"countdown_interval": 0,
+	"countdown_destroy": true,
+	"countdown_action": {
+      "type": "explosion",
+      "explosion": {
+        "power" : 9,
+        "distance_factor" : 0.1,
+        "fire" : false,
+        "shrapnel" : {
+          "count" : 4,
+          "mass" : 1,
+          "recovery" : 70,
+          "drop" : "essence"
+        }
+	  },
+	  "draw_explosion_radius" : 1,
+	  "draw_explosion_color" : "ltblue",
+      "fields_type": "fd_plasma",
+      "fields_radius": 1,
+      "fields_min_density": 0,
+      "fields_max_density": 2
+	},
+	"flags": [ "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "id": "essence_shell_en",
+    "type": "TOOL",
+    "category": "weapons",
+    "name" : "star shell EN",
+    "description": "A grain of hyper-compressed essence structure. A self propelling magical artillery shell. This variant is enhanced for inflicting greater damage.",
+    "weight": 0,
+    "volume": 0,
+    "price": 5000,
+    "material" : "essencemat",
+    "symbol": "=",
+    "color": "light_blue",
+	"thrown_damage" : [
+		{ "damage_type": "bash", "amount": 69 },
+		{ "damage_type": "stab", "amount": 69 }
+	],
+    "use_action": { "type": "countdown" },
+	"countdown_interval": 0,
+	"countdown_destroy": true,
+	"countdown_action": {
+      "type": "explosion",
+      "explosion": {
+        "power" : 14,
+        "distance_factor" : 0.1,
+        "fire" : false,
+        "shrapnel" : {
+          "count" : 6,
+          "mass" : 1,
+          "recovery" : 70,
+          "drop" : "essence"
+        }
+	  },
+	  "draw_explosion_radius" : 1,
+	  "draw_explosion_color" : "ltblue",
+      "fields_type": "fd_plasma",
+      "fields_radius": 1,
+      "fields_min_density": 0,
+      "fields_max_density": 2
+	},
+	"flags": [ "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "id": "essence_shell_ap",
+    "type": "TOOL",
+    "category": "weapons",
+    "name" : "star shell AP",
+    "description": "A grain of hyper-compressed essence structure. A self propelling magical artillery shell. This variant is specialised of anti-armour works.",
+    "weight": 0,
+    "volume": 0,
+    "price": 5000,
+    "material" : "essencemat",
+    "symbol": "=",
+    "color": "light_blue",
+	"thrown_damage" : [
+		{ "damage_type": "bash", "amount": 17 },
+		{ "damage_type": "stab", "amount": 138 }
+	],
+    "use_action": { "type": "countdown" },
+	"countdown_interval": 0,
+	"countdown_destroy": true,
+	"countdown_action": {
+      "type": "explosion",
+      "explosion": {
+        "power" : 7,
+        "distance_factor" : 0.1,
+        "fire" : false,
+        "shrapnel" : {
+          "count" : 6,
+          "mass" : 1,
+          "recovery" : 70,
+          "drop" : "essence"
+        }
+	  },
+	  "draw_explosion_radius" : 1,
+	  "draw_explosion_color" : "ltblue",
+      "fields_type": "fd_plasma",
+      "fields_radius": 1,
+      "fields_min_density": 0,
+      "fields_max_density": 2
+	},
+	"flags": [ "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "id": "essence_shell_ex",
+    "type": "TOOL",
+    "category": "weapons",
+    "name" : "star shell EX",
+    "description": "A grain of hyper-compressed essence structure. A self propelling magical artillery shell. This variant is suited for taking out clustered enemies.",
+    "weight": 0,
+    "volume": 0,
+    "price": 5000,
+    "material" : "essencemat",
+    "symbol": "=",
+    "color": "light_blue",
+	"thrown_damage" : [
+		{ "damage_type": "bash", "amount": 17 },
+		{ "damage_type": "stab", "amount": 17 }
+	],
+    "use_action": { "type": "countdown" },
+	"countdown_interval": 0,
+	"countdown_destroy": true,
+	"countdown_action": {
+      "type": "explosion",
+      "explosion": {
+        "power" : 55,
+        "distance_factor" : 0.5,
+        "fire" : false,
+        "shrapnel" : {
+          "count" : 6,
+          "mass" : 1,
+          "recovery" : 70,
+          "drop" : "essence"
+        }
+	  },
+	  "draw_explosion_radius" : 8,
+	  "draw_explosion_color" : "ltblue",
+      "fields_type": "fd_plasma",
+      "fields_radius": 8,
+      "fields_min_density": 0,
+      "fields_max_density": 2
+	},
+	"flags": [ "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "type" : "AMMO",
+    "id" : "arrow_e_metal",
+    "price" : 5000,
+    "name" : "reinforced metal arrow",
+    "symbol" : "=",
+    "color" : "light_green",
+    "description" : "This metal arrow has been reinforced by a mesh of essence fibres.  Virtually guaranteed to remain intact once fired.",
+    "material" : ["steel", "essencemat"],
+    "volume" : 1,
+    "weight" : 63,
+    "bashing" : 3,
+    "cutting" : 2,
+    "ammo_type" : "arrow",
+    "damage" : 14,
+    "pierce" : 7,
+    "range" : 10,
+    "dispersion" : 60,
+    "loudness": 0,
+    "count" : 10,
+    "effects" : ["RECOVER_1000000"]
+  }
+]

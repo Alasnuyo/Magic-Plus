@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "magic+",
+    "name": "Magic Plus",
+    "authors": [ "Alasnuyo" ],
+    "description": "Adds additional skill for spellslinging and more magic stuff in labs.",
+    "category": "magical",
+    "dependencies": [ "dda", "Arcana" ]
+  }
+]

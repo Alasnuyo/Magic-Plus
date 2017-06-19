@@ -1,0 +1,134 @@
+[
+  {
+	"type":"TOOL",
+	"id" : "timesplitterx3",
+	"name" : "timesplitter (x3)",
+	"description" : "At first glance, it looks like a normal pocket watch. But it has an additional dial pointing to various 'factors of acceleration'. The dial is currently pointed at 'x3'",
+	"weight" : 42,
+	"to_hit" : -3,
+	"color" : "dark_gray",
+	"symbol" : ",",
+	"material" : ["steel", "glass"],
+	"volume" : 0,
+	"price" : 1000000,
+	"flags" : ["WATCH", "FANCY"],
+	"max_charges": 1000,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "ammo": "essence_type",
+	"use_action": [
+	  {
+		"type": "transform",
+		"target": "timesplitterx10",
+		"menu_text": "Adjust dial",
+		"msg": "You adjust the dial of the timesplitter."
+	  },
+	  {
+		"type": "consume_drug",
+		"activation_message": "You speed up.",
+		"menu_text": "Split time",
+		"effects": [{ "id": "accelerate_arcane1" }],
+		"charges_needed" : { "timesplitterx3" : 3 }
+	  }
+	]
+  },
+  {
+	"type":"TOOL",
+	"id" : "timesplitterx10",
+	"name" : "timesplitter (x10)",
+	"description" : "At first glance, it looks like a normal pocket watch. But it has an additional dial pointing to various 'factors of acceleration'. The dial is currently pointed at 'x10'",
+	"weight" : 42,
+	"to_hit" : -3,
+	"color" : "dark_gray",
+	"symbol" : ",",
+	"material" : ["steel", "glass"],
+	"volume" : 0,
+	"price" : 1000000,
+	"flags" : ["WATCH", "FANCY"],
+	"max_charges": 1000,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "ammo": "essence_type",
+	"use_action": [
+	  {
+		"type": "transform",
+		"target": "timesplitterx100",
+		"menu_text": "Adjust dial",
+		"msg": "You adjust the dial of the timesplitter."
+	  },
+	  {
+		"type": "consume_drug",
+		"activation_message": "You speed up.",
+		"menu_text": "Split time",
+		"effects": [{ "id": "accelerate_arcane2" }],
+		"charges_needed" : { "timesplitterx10" : 10 }
+	  }
+	]
+  },
+  {
+	"type":"TOOL",
+	"id" : "timesplitterx100",
+	"name" : "timesplitter (x100)",
+	"description" : "At first glance, it looks like a normal pocket watch. But it has an additional dial pointing to various 'factors of acceleration'. The dial is currently pointed at 'x100'",
+	"weight" : 42,
+	"to_hit" : -3,
+	"color" : "dark_gray",
+	"symbol" : ",",
+	"material" : ["steel", "glass"],
+	"volume" : 0,
+	"price" : 1000000,
+	"flags" : ["WATCH", "FANCY"],
+	"max_charges": 1000,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "ammo": "essence_type",
+	"use_action": [
+	  {
+		"type": "transform",
+		"target": "timesplitterx1000",
+		"menu_text": "Adjust dial",
+		"msg": "You adjust the dial of the timesplitter."
+	  },
+	  {
+		"type": "consume_drug",
+		"activation_message": "You speed up.",
+		"menu_text": "Split time",
+		"effects": [{ "id": "accelerate_arcane3" }],
+		"charges_needed" : { "timesplitterx100" : 100 }
+	  }
+	]
+  },
+  {
+	"type":"TOOL",
+	"id" : "timesplitterx1000",
+	"name" : "timesplitter (x1000)",
+	"description" : "At first glance, it looks like a normal pocket watch. But it has an additional dial pointing to various 'factors of acceleration'. The dial is currently pointed at 'x1000'",
+	"weight" : 42,
+	"to_hit" : -3,
+	"color" : "dark_gray",
+	"symbol" : ",",
+	"material" : ["steel", "glass"],
+	"volume" : 0,
+	"price" : 1000000,
+	"flags" : ["WATCH", "FANCY"],
+	"max_charges": 1000,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "ammo": "essence_type",
+	"use_action": [
+	  {
+		"type": "transform",
+		"target": "timesplitterx3",
+		"menu_text": "Adjust dial",
+		"msg": "You adjust the dial of the timesplitter."
+	  },
+	  {
+		"type": "consume_drug",
+		"activation_message": "You speed up.",
+		"menu_text": "Split time",
+		"effects": [{ "id": "accelerate_arcane4" }],
+		"charges_needed" : { "timesplitterx1000" : 1000 }
+	  }
+	]
+  }
+]

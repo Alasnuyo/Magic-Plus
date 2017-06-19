@@ -1,0 +1,45 @@
+[
+  {
+    "type" : "item_group",
+    "id" : "chem_lab",
+    "items":[
+      ["recipe_lab_essence", 4],
+      ["recipe_lab_enchantment", 4]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "teleport",
+    "items":[
+      ["recipe_lab_charms", 5],
+      ["recipe_lab_enchantment", 5]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "lab_dorm",
+    "items":[
+      ["recipe_lab_essence", 6]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "science",
+    "items":[
+      ["recipe_lab_charms", 4],
+      ["recipe_lab_essence", 4],
+      ["recipe_lab_enchantment", 4]
+    ]
+  },
+  {
+    "id": "magic_books",
+    "type": "item_group",
+    "items": [
+      [ "book_essence", 10 ]
+    ]
+  },
+  {
+    "id": "mansion_books",
+    "type": "item_group",
+    "items": [
+      [ "book_essence", 8 ]
+    ]
+  }
+]

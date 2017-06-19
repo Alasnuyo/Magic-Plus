@@ -1,0 +1,14 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "essence_projectile",
+    "name": "essence projectile",
+    "default": "essence_bullet"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "essence_filament",
+    "name": "essence filament",
+    "default": "essence_fiber"
+  }
+]
