@@ -32,14 +32,25 @@
     "id": "magic_books",
     "type": "item_group",
     "items": [
-      [ "book_essence", 10 ]
+      [ "book_essence", 10 ],
+      [ "manual_ripple", 8 ]
     ]
   },
   {
     "id": "mansion_books",
     "type": "item_group",
     "items": [
-      [ "book_essence", 8 ]
+      [ "book_essence", 3 ],
+      [ "manual_ripple", 3 ],
+      [ "manual_cwind", 3 ]
+    ]
+  },
+  {
+    "id": "pawn",
+    "type": "item_group",
+    "items": [
+      [ "manual_ripple", 3 ],
+      [ "manual_cwind", 3 ]
     ]
   }
 ]

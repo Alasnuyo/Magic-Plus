@@ -1,0 +1,110 @@
+[
+  {
+	"type" : "martial_art",
+	"id" : "style_ripple",
+	"name" : "The Art of Breathing",
+	"description" : "An esoteric martial more akin to meditation in motion than any self-defense art. When in use, the user mystically enhances their bodies strength and endurance.",
+	"arm_block" : 3,
+	"leg_block" : 3,
+	"static_buffs" : [
+	  {
+		"id" : "ripple_bash_resist",
+		"name" : "Bash resistance",
+		"description" : "Strength-dependent armor against bashing damage.",
+		"unarmed_allowed" : true,
+		"melee_allowed" : true,
+		"strictly_unarmed" : false,
+		"min_melee" : 2,
+		"flat_bonuses" : [
+			["armor", "bash", "str", 0.5]
+		]
+	  },
+	  {
+		"id" : "ripple_cut_resist",
+		"name" : "Cut/pierce resistance",
+		"description" : "Dexterity-dependent armor against cutting/piercing damage.",
+		"unarmed_allowed" : true,
+		"melee_allowed" : true,
+		"strictly_unarmed" : false,
+		"min_melee" : 4,
+		"flat_bonuses" : [
+			["armor", "cut", "dex", 0.5],
+			["armor", "stab", "dex", 0.5]
+		]
+	  },
+	  {
+		"id" : "ripple_bio_resist",
+		"name" : "Biological resistance",
+		"description" : "Intelligence-dependent armor against biological/acid damage.",
+		"unarmed_allowed" : true,
+		"melee_allowed" : true,
+		"strictly_unarmed" : false,
+		"min_melee" : 6,
+		"flat_bonuses" : [
+			["armor", "biological", "int", 0.5],
+			["armor", "acid", "int", 0.5]
+		]
+	  },
+	  {
+		"id" : "ripple_elem_resist",
+		"name" : "Elemental resistance",
+		"description" : "Perception-dependent armor against elemental damage.",
+		"unarmed_allowed" : true,
+		"melee_allowed" : true,
+		"strictly_unarmed" : false,
+		"min_melee" : 8,
+		"flat_bonuses" : [
+			["armor", "heat", "per", 0.5],
+			["armor", "cold", "per", 0.5],
+			["armor", "electric", "int", 0.5]
+		]
+	  }
+	],
+	"techniques" : [
+		"tec_ripple_punch",
+		"tec_ripple_kick",
+		"tec_ripple_strike",
+		"tec_ripple_pulse",
+		"tec_ripple_shockwave",
+		"tec_ripple_throw",
+		"tec_ripple_yaad"
+	]
+  },
+  {
+	"type" : "martial_art",
+	"id" : "style_cwind",
+	"name" : "Crimson Wind Style",
+	"description" : "A martial art that focuses on speed and dodging above all else.",
+	"arm_block" : 99,
+	"leg_block" : 99,
+	"onmove_buffs" : [
+	  {
+		"id" : "cwind_speed_boost",
+		"name" : "Running to Forever",
+		"description" : "Speed increase while on the move.",
+		"unarmed_allowed" : true,
+		"melee_allowed" : true,
+		"strictly_unarmed" : false,
+		"min_melee" : 0,
+		"buff_duration" : 3,
+		"max_stacks" : 15,
+		"flat_bonuses" : [["speed", 10.0]]
+	  },
+	  {
+		"id" : "cwind_dodge_boost",
+		"name" : "Like Striking the Wind",
+		"description" : "Dodge increase while on the move.",
+		"unarmed_allowed" : true,
+		"melee_allowed" : true,
+		"strictly_unarmed" : false,
+		"min_melee" : 1,
+		"buff_duration" : 3,
+		"max_stacks" : 1,
+		"flat_bonuses" : [["dodge", 2.0]]
+	  }
+	],
+	"techniques" : [
+		"tec_cwind_rapid"
+	]
+  }
+]

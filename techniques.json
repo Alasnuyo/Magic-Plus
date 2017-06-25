@@ -1,0 +1,133 @@
+[
+  {
+	"type" : "technique",
+	"id" : "tec_ripple_punch",
+	"name" : "Blazing Punch",
+	"unarmed_allowed" : true,
+	"min_unarmed" : 2,
+	"mult_bonuses" : [
+		["movecost", 0.8],
+		["damage", "bash", 1.3]
+	],
+	"weighting" : 7,
+	"messages" : [
+		"You punch %s with a fist wrapped in fiery essence",
+		"<npcname> punches %s with a fist wrapped in fiery essence"
+	]
+  },
+  {
+	"type" : "technique",
+	"id" : "tec_ripple_kick",
+	"name" : "Blazing Kick",
+	"unarmed_allowed" : true,
+	"min_unarmed" : 2,
+	"mult_bonuses" : [
+		["movecost", 0.8],
+		["damage", "bash", 1.3]
+	],
+	"weighting" : 7,
+	"messages" : [
+		"You kick %s with a leg wrapped in fiery essence",
+		"<npcname> kicks %s with a leg wrapped in fiery essence"
+	]
+  },
+  {
+	"type" : "technique",
+	"id" : "tec_ripple_strike",
+	"name" : "Blazing Strike",
+	"melee_allowed" : true,
+	"min_melee" : 2,
+	"mult_bonuses" : [
+		["movecost", 0.8],
+		["damage", "bash", 1.3],
+		["damage", "bash", 1.3]
+	],
+	"weighting" : 7,
+	"messages" : [
+		"You strike %s with your weapon wrapped in fiery essence",
+		"<npcname> strikes %s with their weapon wrapped in fiery essence"
+	]
+  },
+  {
+	"type" : "technique",
+	"id" : "tec_ripple_pulse",
+	"name" : "Pulse",
+	"unarmed_allowed" : true,
+	"min_unarmed" : 4,
+	"stun_dur" : 1,
+	"knockback_dist" : 2,
+	"weighting" : 4,
+	"messages" : [
+		"You send a shockwave through %s with a palm thrust",
+		"<npcname> sends a shockwave through %s with a palm thrust"
+	],
+	"aoe" : "wide"
+  },
+  {
+	"type" : "technique",
+	"id" : "tec_ripple_shockwave",
+	"name" : "Shockwave",
+	"unarmed_allowed" : true,
+	"melee_allowed" : true,
+	"min_melee" : 6,
+	"stun_dur" : 1,
+	"knockback_dist" : 2,
+	"crit_tec" : true,
+	"weighting" : 4,
+	"messages" : [
+		"You blow back %s and everyone nearby with an omnidirectional shockwave of essence",
+		"<npcname> blows back %s and everyone nearby with an omnidirectional shockwave of essence"
+	],
+	"aoe" : "spin"
+  },
+  {
+	"type" : "technique",
+	"id" : "tec_ripple_throw",
+	"name" : "Force Throw",
+	"unarmed_allowed" : true,
+	"min_melee" : 8,
+	"crit_tec" : true,
+	"stun_dur" : 5,
+	"knockback_dist" : 10,
+	"mult_bonuses" : [
+		["damage", "bash", 2]
+	],
+	"weighting" : 1,
+	"messages" : [
+		"You send %s flying through the air with a single strike",
+		"<npcname> sends %s flying through the air with a single strike"
+	]
+  },
+  {
+	"type" : "technique",
+	"id" : "tec_ripple_yaad",
+	"name" : "Force Inversion Strike",
+	"unarmed_allowed" : true,
+	"min_melee" : 10,
+	"mult_bonuses" : [["damage", "bash", 10]],
+	"crit_tec" : true,
+	"weighting" : -10,
+	"messages" : [
+		"You deliver %s a strategically placed blow with an essence infused fist and ruptured their innards",
+		"<npcname> delivers %s a strategically placed blow with an essence infused fist and ruptured their innards"
+	]
+  },
+  {
+	"type" : "technique",
+	"id" : "tec_cwind_rapid",
+	"name" : "Rapid Strike",
+	"min_melee" : 2,
+	"min_unarmed" : 2,
+	"unarmed_allowed" : true,
+	"mult_bonuses" : [
+		["movecost", 0.5],
+		["damage", "bash", 0.66],
+		["damage", "cut", 0.66],
+		["damage", "stab", 0.66]
+	],
+	"messages" : [
+		"You swiftly hit %s",
+		"<npcname> swiftly hits %s"
+	]
+  }
+]
